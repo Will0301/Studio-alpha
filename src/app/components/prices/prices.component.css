@@ -1,0 +1,262 @@
+.title{
+    color: aliceblue;
+    font-size: 8rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-top: 6%;
+    margin-left: 40.1%;
+}
+
+.phelippe-responsive{
+    display: none;
+}
+
+.ul-responsive{
+    display: none;
+}
+
+.photos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+}
+
+.photos img{
+    width: 20%;
+    height: 20%;
+    margin: 5rem;
+    margin-bottom: 0;
+}
+
+.white-block{
+    height: 25rem;
+    background-color: aliceblue;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -5%;
+}
+
+.prices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prices .left{
+    position: relative;
+    right: 25rem;
+}
+
+.prices .right{
+    position: relative;
+    left: 25rem;
+}
+
+.prices{
+    margin-top: -9%;
+}
+
+.prices span p {
+    color: rgb(0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    font-size: 2rem;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+/*/////////////////////*/
+
+
+.photos2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.photos2 img{
+    width: 20%;
+    height: 20%;
+    margin: 5rem;
+    margin-bottom: 0;
+}
+
+.white-block2{
+    height: 25rem;
+    background-color: aliceblue;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -5%;
+}
+
+.prices2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prices2 .left2{
+    position: relative;
+    right: 25.5rem;
+}
+
+.prices2 .right2{
+    position: relative;
+    left: 30.5rem;
+}
+
+.prices2 .center2{
+    position: relative;
+    left: 3.5rem;
+}
+
+.prices2{
+    margin-top: -9%;
+}
+
+.prices2 span p {
+    color: rgb(0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    font-size: 2rem;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+/*/////////////////////*/
+
+
+.photos3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.photos3 img{
+    width: 20%;
+    height: 20%;
+    margin: 5rem;
+    margin-bottom: 0;
+}
+
+.white-block3{
+    height: 25rem;
+    background-color: aliceblue;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -5%;
+}
+
+.prices3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prices3 .left3{
+    position: relative;
+    right: 6.5rem;
+}
+
+.prices3 .right3{
+    position: relative;
+    left: 13rem;
+}
+
+.prices3{
+    margin-top: -9%;
+}
+
+.prices3 span p {
+    color: rgb(0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    font-size: 2rem;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 450px){
+    *{
+        justify-content: center;
+        text-align: center;
+    }
+    .title{
+        margin-left: 0;
+    }
+
+    .phelippe-responsive{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+    }
+
+    .phelippe-responsive img{
+        width: 70%;
+        height: 70%;
+    }
+
+    .white-block{
+        height: 90vh;
+        background-color: aliceblue;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: -15%;
+    }
+
+    .ul-responsive{
+        display: block;
+        margin-top: -170%;
+        list-style: none;
+    }
+
+    .ul-responsive li {
+        color: rgb(0, 0, 0);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: lighter;
+        font-size: 2rem;
+        line-height: 3rem;
+        letter-spacing: 0.1rem;
+        text-align: center;
+        margin-bottom: 10%;
+        margin-right: 7%;
+    }
+
+    .photos{
+        display: none;
+    }
+    .photos2{
+        display: none;
+    }
+
+    .photos3{
+        display: none;
+    }
+
+    .prices{
+        display: none;
+    }
+
+    .prices2{
+        display: none;
+    }
+
+    .prices3{
+        display: none;
+    }
+
+    .white-block2{
+        display: none;
+    }
+
+    .white-block3{
+        display: none;
+    }
+}

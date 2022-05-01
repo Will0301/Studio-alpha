@@ -1,0 +1,33 @@
+<h2 id="sobre">STUDIO ALPHA</h2>
+<div class="description"><p>O studio Alpha visa um atendimento diferenciado e cordial, com profissionais qualificados que dispõe de cursos de atualização com<br>
+frequência e atentos às novidades do mercado. Hoje em dia, os consumidores estão mais exigentes afinal, sabem onde investir seu<br>
+dinheiro não basta ser uma barbearia procurada é preciso ter diferenciais que fidelizem a clientela e o Studio é esse lugar.
+</p></div>
+<hr>
+
+<div class="carrosel">
+<img class="photos" *ngIf="photo === 1" src="assets/Design/exibe2.jpeg">
+<img class="photos" *ngIf="photo === 2" src="assets/Design/IMG_6038.JPG">
+<img class="photos" *ngIf="photo === 3" src="assets/Design/IMG_6042.JPG">
+<img class="photos" *ngIf="photo === 4" src="assets/Design/IMG_6043.JPG">
+<img class="photos" *ngIf="photo === 5" src="assets/Design/corte2.jpeg">
+<div class="arrow-left" (click)="back()">❮</div>
+<div class="arrow-right" (click)="next()">❯</div>
+</div>
+
+<div class="btn">
+<div class="btn1" *ngIf="photo === 1" style="background-color: aliceblue;"></div>
+<div class="btn1" *ngIf="photo !== 1"></div>
+
+<div class="btn2" *ngIf="photo === 2" style="background-color: aliceblue;"></div>
+<div class="btn2" *ngIf="photo !== 2"></div>
+
+<div class="btn3" *ngIf="photo === 3" style="background-color: aliceblue;"></div>
+<div class="btn3" *ngIf="photo !== 3"></div>
+
+<div class="btn4" *ngIf="photo === 4" style="background-color: aliceblue;"></div>
+<div class="btn4" *ngIf="photo !== 4"></div>
+
+<div class="btn5" *ngIf="photo === 5" style="background-color: aliceblue;"></div>
+<div class="btn5" *ngIf="photo !== 5"></div>
+</div>
